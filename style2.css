@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Top-hero-section {
+    background: linear-gradient(45deg, rgba(255,255,255,0.8)) 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.text-primary {
+    color: #124265 !important;
+}
+
+#count-section {
+      background: #f8fbfe;
+}
+
+#count-section h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#client-section img{
+    max-width: 45%;
+    filter: grayscale(100);
+    transition: all 0.45s ease-in-out;
+}
+
+#client-section img:hover {
+    filter: grayscale(0);
+    transform: scale(1.15);
+}
+
+ .testimony {
+    background-color: rgb(236, 226, 226);
+ }
+
+.icon-section img {
+    max-width: 5%;
+    filter: grayscale(100);
+    transition: all 0.45s ease-in-out;
+}
+
+.icon-section img:hover {
+    filter: grayscale(0);
+    transform: scale(1.15);
+}
+
+#service-section .row {
+    margin-top: 80px;
+}
+
+#service-section .card {
+    margin-top: 20px;
+
+}
+
+.icon-section {
+    position: relative;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+}
+
+.icon-section svg {
+    z-index: 2;
+    top: 0;
+    position: absolute;
+}
+
+.icon-section i {
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.service-card:hover {
+    box-shadow: #124265;
+}
+
